@@ -17,10 +17,20 @@ class TPLinkHS110Device {
         $this->deviceName = $deviceName;
     }
 
+    /**
+     * Switches ON the plug.
+     * 
+     * @return type string in JSON format
+     */
     public function switchOn() {
         return $this->sendCommand(TPLinkHS110Command::SWITCH_ON);
     }
 
+    /**
+     * Switches OFF the plug.
+     * 
+     * @return type string in JSON format
+     */
     public function switchOff() {
         return $this->sendCommand(TPLinkHS110Command::SWITCH_OFF);
     }
