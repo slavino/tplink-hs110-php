@@ -1,0 +1,16 @@
+{
+  "name": "slavino/tplink-hs110",
+  "description": "A PHP library to control and receive information from a TP-Link HS-110 smartplug.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": ["TPLink", "PHP", "HS110", "Timer", "SmartPlug"],
+  "authors": [
+    {
+      "name": "Slavomir Hustaty",
+      "email": "slavomir.hustaty@gmail.com"
+    }
+  ],
+  "psr-4": {
+    "slavino\\tplink-hs110\\": "src/"
+  }
+}
