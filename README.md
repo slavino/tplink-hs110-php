@@ -14,7 +14,7 @@ $plug->switchOn();
 
 ## Additional information
 
-Any issues, feedback, suggestions or questions please use issue tracker [here][link-issues].
+Any issues, feedback, suggestions or questions please use issue tracker [here](https://github.com/slavino/tplink-hs110-php/issues).
 
 ## Credits
 
@@ -31,4 +31,4 @@ See License section for more details.
 
 This project is released under the [MIT][link-license] License.
 
-© 2017 [Jonathan Williamson][link-author], All rights reserved.
+© 2017 [Slavomir Hustaty](https://www.linkedin.com/in/hustaty/), All rights reserved.
