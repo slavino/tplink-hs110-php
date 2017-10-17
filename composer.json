@@ -11,7 +11,7 @@
     }
   ],
   "autoload": {
-    "psr-0": {"slavino\\tplinkhs110": "src/"},
+    "psr-4": {"slavino\\tplinkhs110\\": "src/"},
     "classmap": ["src/"]
   }
 }
