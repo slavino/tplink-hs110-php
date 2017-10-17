@@ -1,5 +1,5 @@
 {
-  "name": "slavino/tplink-hs110",
+  "name": "slavino/tplinkhs110",
   "description": "A PHP library to control and receive information from a TP-Link HS-110 smartplug.",
   "license": "MIT",
   "type": "library",
@@ -11,6 +11,6 @@
     }
   ],
   "psr-4": {
-    "slavino\\tplink-hs110\\": "src/"
+    "slavino\\tplinkhs110\\": "src/"
   }
 }

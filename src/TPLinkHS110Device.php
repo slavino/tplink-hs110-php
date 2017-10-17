@@ -1,5 +1,6 @@
 <?php
-namespace slavino\tplink-hs110;
+namespace slavino\tplinkhs110;
+use  slavino\tplinkhs110\TPLinkHS110Command;
 
 class TPLinkHS110Device {
 

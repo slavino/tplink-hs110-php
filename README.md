@@ -8,7 +8,7 @@ PHP library to steer TP-Link HS-110
 
 $config = ["ipAddr" => "192.168.1.41", "port" => "9999"];
 $plug = new TPLinkHS110Device($config, "plug1");
-
+$plug->switchOn();
 
 ```
 
