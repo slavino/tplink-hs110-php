@@ -14,7 +14,7 @@ class TPLinkHS110Device {
      * @param string $deviceName
      */
     public function __construct(array $config, $deviceName) {
-        $this->config = $config; //["ipAddr":"192.168.1.41", "port":"9999"]
+        $this->config = $config;
         $this->deviceName = $deviceName;
     }
 
@@ -36,7 +36,7 @@ class TPLinkHS110Device {
         return $this->sendCommand(TPLinkHS110Command::SWITCH_OFF);
     }
 
-    private function sendCommand(TPLinkHS110Command $command) {
+    private function sendCommand($command) {
         $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
         if ($socket === false) {
 //            echo "socket_create() failed: reason: " . socket_strerror(socket_last_error()) . "\n";
