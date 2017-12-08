@@ -36,6 +36,15 @@ class TPLinkHS110Device {
         return $this->sendCommand(TPLinkHS110Command::SWITCH_OFF);
     }
 
+    /**
+     * Gets system informations like the relay status
+     * 
+     * @return type string in JSON format
+     */
+    public function getSystemInfo() {
+        return $this->sendCommand(TPLinkHS110Command::SYSTEM_INFO);
+    }
+
     private function sendCommand($command) {
         $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
         if ($socket === false) {
