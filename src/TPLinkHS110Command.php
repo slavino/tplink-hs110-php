@@ -9,6 +9,8 @@ class TPLinkHS110Command {
     const SWITCH_OFF = '{"system":{"set_relay_state":{"state":0}}}';
 
     const SWITCH_LED_OFF = '{"system":{"set_led_off":{"off":1}}}';
+
+    const SYSTEM_INFO = '{"system":{"get_sysinfo":null}}';
     
     //more commands available here: https://github.com/softScheck/tplink-smartplug/blob/master/tplink-smarthome-commands.txt
     
