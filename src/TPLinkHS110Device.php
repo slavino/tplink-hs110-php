@@ -69,10 +69,7 @@ class TPLinkHS110Device {
 //        echo "OK.\n";
         $response = "";
 //        echo "Reading response:\n\n";
-        while ($out = socket_read($socket, 2048)) {
-            $response .= $out;
-            
-        }
+        socket_recv($socket,$response,2048,MSG_PEEK);
 
 //        echo "Closing socket...";
         socket_close($socket);
